@@ -6,7 +6,7 @@ Library         Browser
 Buscar um Restaurante
 
     New Browser     chromium        False
-    New Page        http://parofifood.qaninja.academy/
+    New Page        http://parodifood.qaninja.academy/
     #checkpoint
     Get Text        css=span        contains        Nunca foi tão engraçado pedir comida
 
