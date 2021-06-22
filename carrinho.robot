@@ -31,8 +31,7 @@ Deve adicionar um item ao carrinho
     Add to cart             Starbugs 500 error
     Should Add To Cart      Starbugs 500 error      
 
-    Sleep 10
-
+    
 *Keywords*
 Choose Restaurant
     [Arguments]     ${restaurant} 
