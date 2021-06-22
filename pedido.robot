@@ -6,7 +6,7 @@ Test Setup      Start Session
 Test Teardown   Take Screenshot
 
 *Test Cases*
-Deve realizar um novo pedido
+Deve realizar um novo pedido em dinheiro
     ${order_json}       Get JSON        order.json
     Go To Restaurants
     Choose Restaurant       ${order_json}
@@ -18,6 +18,7 @@ Deve realizar um novo pedido
     Go Checkout
     Fill Data Customer          ${order_json["customer"]}
     Select Payment Option       ${order_json["payment"]}
+    Pay order                   
     
 *Keywords*
 Go Checkout
@@ -54,4 +55,6 @@ Select Payment Option
 
     END   
 
+Pay order
+    Click       text=Concluir Pedido
 
