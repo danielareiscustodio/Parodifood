@@ -4,9 +4,9 @@ Documentation       Arquivo base do projeto (tudo começa aqui)
 Library         Browser
 Library         OperatingSystem
 
-Resource        actions/search.robot
-Resource        actions/cart.robot
-Resource        actions/order.robot
+Resource        search.robot
+Resource        cart.robot
+Resource        order.robot
 
 * Variables *
 ${DEFAULT_TIMEOUT}      10
