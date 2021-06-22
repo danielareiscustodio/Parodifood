@@ -23,7 +23,7 @@ Deve adicionar um item ao carrinho
     #mas para usar ela, precisa ainda ser com $
     &{restaurant}       Create Dictionary       name=STARBUGS COFFEE        desc=Nada melhor que um café pra te ajudar a resolver um bug.
     Go To Restaurants
-    Choose Restaurant    ${restaurant}
+    Choose Restaurant       ${restaurant}
     #esse //span, foi um xpath feito na mao
     #span é a classe do texto, text é o texto que vc quer ou esta procurando, 
     #/.. é ir ate a div pai, a é o elemento que
@@ -33,7 +33,9 @@ Deve adicionar um item ao carrinho
 *Keywords*
 Choose Restaurant
     [Arguments]     ${restaurant} 
-    Click Text      text=${restaurant["name"]}
+    #ao inves de usar 2 argumentos, agora por causa da super variavel sera usado 1 so
+    #[Arguments]     ${name}     ${description}
+    Click           text=${restaurant["name"]}
     #checkpoint - verificar que realmente esta na tela. Verifica ate 10 segundos que o elemento esteja visivel
     Wait For Elements State     css=#detail     visible     10
     #o get text verifica que realmente na tela no css x esta aparecendo o texto esperado
