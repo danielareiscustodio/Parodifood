@@ -1,5 +1,5 @@
 *Settings*
-Documentation       Arquivo de carrinho e que estara dentro da pasta tests
+Documentation       Arquivo de carrinho e que estara dentro da pasta tests. O arquivo cart.json vai estar dentro da pasta fixtures
 
 #se vier da raiz tem que ser ${EXECDIR}/resources/base.robot
 #essa variavel serve para pegar automaticamente o diretorio de execução
@@ -33,23 +33,27 @@ Deve adicionar um item ao carrinho
     Total Cart Should Be    15,60
 
 Deve adicionar os 3 itens no carrinho
-    &{restaurant}       Create Dictionary       name=STARBUGS COFFEE        desc=Nada melhor que um café pra te ajudar a resolver um bug.
+    ${cart_json}            Get JSON        cart.json   
     Go To Restaurants
-    Choose Restaurant       ${restaurant}
-    Add to cart             Cappuccino com Chantilly
-    Should Add To Cart      Cappuccino com Chantilly
-    Add to cart             Super Espreso
-    Should Add To Cart      Super Espreso 
-    Add to cart             Starbugs 500 error
-    Should Add To Cart      Starbugs 500 error      
-    Total Cart Should Be    38,00
+    Choose Restaurant               ${cart_json}
+    FOR     ${product}     IN       @{cart_json["products"]}
+        Add to cart                 ${product["name"]}
+        Should Add To Cart          ${product["name"]}
+    END
+    # Add to cart             Cappuccino com Chantilly
+    # Should Add To Cart      Cappuccino com Chantilly
+    # Add to cart             Super Espreso
+    # Should Add To Cart      Super Espreso 
+    # Add to cart             Starbugs 500 error
+    # Should Add To Cart      Starbugs 500 error      
+    Total Cart Should Be    ${cart_json["total"]}
     
 *Keywords*
 Choose Restaurant
-    [Arguments]     ${restaurant} 
+    [Arguments]     ${super_var} 
     #ao inves de usar 2 argumentos, agora por causa da super variavel sera usado 1 so
     #[Arguments]     ${name}     ${description}
-    Click           text=${restaurant["name"]}
+    Click           text=${super_var["restaurant"]}
     #checkpoint - verificar que realmente esta na tela. Verifica ate 10 segundos que o elemento esteja visivel
     Wait For Elements State     css=#detail     visible     10
     #o get text verifica que realmente na tela no css x esta aparecendo o texto esperado
