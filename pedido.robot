@@ -42,10 +42,10 @@ Select Payment Option
     #opção 1 é opção dinheiro, cartao de debito é 2 e cartao de refeicao e 3
         Click    xpath=(//mt-radio//label)[1]//div
 
-    ELESE IF    "${payment}" == "Cartão de Débito"  
+    ELSE IF    "${payment}" == "Cartão de Débito"  
         Click     xpath=(//mt-radio//label)[2]//div
 
-    ELESE IF    "${payment}" == "Cartão de Refeição"  
+    ELSE IF    "${payment}" == "Cartão de Refeição"  
         Click    xpath=(//mt-radio//label)[3]//div
 
     ELSE 
