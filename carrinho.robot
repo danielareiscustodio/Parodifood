@@ -28,7 +28,7 @@ Deve adicionar um item ao carrinho
     #span é a classe do texto, text é o texto que vc quer ou esta procurando, 
     #/.. é ir ate a div pai, a é o elemento que
     #esta o que esta buscanco, o @class é a classe do botao adicionar 
-    Add to card           Starbugs 500 error
+    Add to cart             Starbugs 500 error
 
 *Keywords*
 Choose Restaurant
@@ -41,6 +41,6 @@ Choose Restaurant
     #o get text verifica que realmente na tela no css x esta aparecendo o texto esperado
     Get Text        css=#detail     contains       ${restaurant["desc"]}
 
-Add to card
+Add to cart
     [Arguments]     ${name}
     Click           xpath=//span[text()="${name}"]/..//a[@class="add-to-card"]
