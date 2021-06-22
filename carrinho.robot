@@ -32,10 +32,7 @@ Deve adicionar um item ao carrinho
 
 *Keywords*
 Choose Restaurant
-    #ao inves de usar 2 argumentos, agora por causa da super variavel sera usado 1 so
-    #[Arguments]     ${name}     ${description}
-    [Arguments]      ${restaurant} 
-
+    [Arguments]     ${restaurant} 
     Click Text      text=${restaurant["name"]}
     #checkpoint - verificar que realmente esta na tela. Verifica ate 10 segundos que o elemento esteja visivel
     Wait For Elements State     css=#detail     visible     10
