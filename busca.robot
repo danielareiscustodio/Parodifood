@@ -5,13 +5,9 @@ Library         Browser
 * Test Cases *
 Deve buscar um único restaurante
 
-    New Browser     chromium        False
-    New Page        http://parodifood.qaninja.academy/
-    #checkpoint
-    Get Text        css=span        contains        Nunca foi tão engraçado pedir comida
+    Start Session
 
-    Click           text=Estou com fome!
-    Get Text        css=h1 strong       contains        Ta na hora de matar a fome!
+    Go to restaurantes
 
     Click           css=.search-link
     Fill Text       css=input[formcontrolname="searchControl"]      Debuger
@@ -27,13 +23,9 @@ Deve buscar um único restaurante
 
 Deve buscar por categoria
 
-    New Browser     chromium        False
-    New Page        http://parodifood.qaninja.academy/
-    #checkpoint
-    Get Text        css=span        contains        Nunca foi tão engraçado pedir comida
+    Start Session
 
-    Click           text=Estou com fome!
-    Get Text        css=h1 strong       contains        Ta na hora de matar a fome!
+    Go to restaurantes a fome!
 
     Click           css=.search-link
     Fill Text       css=input[formcontrolname="searchControl"]      Cafe
@@ -42,3 +34,28 @@ Deve buscar por categoria
     Get Text        css=.place-info-box     contains    STARBUGS COFFEE
 
     Take Screenshot
+
+Devo buscar todos os restaurantes
+
+    Start Session
+
+    Go to restaurantes
+
+    Click           css=.search-link
+    Fill Text       css=input[formcontrolname="searchControl"]      a
+
+    Wait For Elements State     css=div[class="place-info-box"][style="opacity: 1;"]     visible     10     
+    Get Element Count       css=.place-info-box     equal       5
+
+    Take Screenshot
+
+* Keywords *
+Start Session
+    New Browser     chromium        False
+    New Page        http://parodifood.qaninja.academy/
+    #checkpoint
+    Get Text        css=span        contains        Nunca foi tão engraçado pedir comida
+
+Go to restaurantes
+    Click           text=Estou com fome!
+    Get Text        css=h1 strong       contains        Ta na hora de matar a fome!
