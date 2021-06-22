@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210622 14:01:55.541" rpa="false" schemaversion="2">
+<suite id="s1" name="Carrinho" source="C:\Users\danielarc\Documents\Parodifood\carrinho.robot">
+<test id="s1-t1" name="Deve adicionar um item ao carrinho">
+<kw name="Start Session" library="base" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>chromium</arg>
+<arg>False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.
+See `Browser, Context and Page` for more information about Browser and related concepts.</doc>
+<msg timestamp="20210622 14:01:57.111" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\Users\\danielarc\\Documents\\Parodifood\\browser\\traces\\fd9d71f2-5378-4592-8b29-6c0a66343a26"}</msg>
+<msg timestamp="20210622 14:01:58.767" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\Users\\danielarc\\Documents\\Parodifood\\browser\\traces\\fd9d71f2-5378-4592-8b29-6c0a66343a26"}</msg>
+<status status="PASS" starttime="20210622 14:01:57.110" endtime="20210622 14:01:58.767"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>http://parodifood.qaninja.academy/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<msg timestamp="20210622 14:01:59.760" level="INFO">Successfully initialized new page object and opened url: http://parodifood.qaninja.academy/</msg>
+<msg timestamp="20210622 14:01:59.761" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20210622 14:01:58.768" endtime="20210622 14:01:59.761"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>css=span</arg>
+<arg>contains</arg>
+<arg>Nunca foi tão engraçado pedir comida</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.
+See the `Finding elements` section for details about the selectors.</doc>
+<msg timestamp="20210622 14:02:03.185" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
+Error: page.screenshot: Target page, context or browser has been closed</msg>
+<msg timestamp="20210622 14:02:03.193" level="FAIL">Error: page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.</msg>
+<status status="FAIL" starttime="20210622 14:01:59.761" endtime="20210622 14:02:03.193"/>
+</kw>
+<status status="FAIL" starttime="20210622 14:01:57.110" endtime="20210622 14:02:03.193"/>
+</kw>
+<kw name="Take Screenshot" library="Browser" type="TEARDOWN">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window and saves it.</doc>
+<msg timestamp="20210622 14:02:03.201" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
+Error: page.screenshot: Target page, context or browser has been closed</msg>
+<msg timestamp="20210622 14:02:03.205" level="FAIL">Error: page.screenshot: Target page, context or browser has been closed</msg>
+<status status="FAIL" starttime="20210622 14:02:03.194" endtime="20210622 14:02:03.205">Error: page.screenshot: Target page, context or browser has been closed</status>
+</kw>
+<status status="FAIL" starttime="20210622 14:01:57.106" endtime="20210622 14:02:03.205">Setup failed:
+Error: page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+
+Also teardown failed:
+Error: page.screenshot: Target page, context or browser has been closed</status>
+</test>
+<doc>Arquivo de carrinho e que estara dentro da pasta tests</doc>
+<status status="FAIL" starttime="20210622 14:01:55.545" endtime="20210622 14:02:03.219"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Carrinho">Carrinho</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210622 14:02:03.185" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
+Error: page.screenshot: Target page, context or browser has been closed</msg>
+<msg timestamp="20210622 14:02:03.201" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
+Error: page.screenshot: Target page, context or browser has been closed</msg>
+</errors>
+</robot>

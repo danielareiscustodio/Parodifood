@@ -1,0 +1,1555 @@
+{"level":30,"time":"2021-06-22T17:01:56.572Z","pid":2748,"hostname":"CIT021709","msg":"Listening on 51839"}
+{"level":30,"time":"2021-06-22T17:01:58.770Z","pid":2748,"hostname":"CIT021709","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-06-22T17:01:58.824Z","pid":2748,"hostname":"CIT021709","msg":"Changed active context"}
+{"level":30,"time":"2021-06-22T17:01:59.419Z","pid":2748,"hostname":"CIT021709","msg":"Video path: undefined"}
+{"level":30,"time":"2021-06-22T17:01:59.420Z","pid":2748,"hostname":"CIT021709","msg":"Changed active page"}
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Target closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+=========================== logs ===========================
+waiting for selector "css=span"
+============================================================
+Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:193:42
+    at Frame._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Frame.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\frame.js:188:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:60
+    at Page._attributeToPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:202:20)
+    at Page.waitForSelector (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:212:21)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25454:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:387:42
+    at Page._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.screenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:383:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22897:47
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22842:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22823:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22817:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22813:12)
+    at takeScreenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22869:12)
+    at PlaywrightServer.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:24046:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23999:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23980:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23974:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/grpc-service.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23970:12)
+    at PlaywrightServer.takeScreenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:24037:55)
+    at handleUnary (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:17918:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:387:42
+    at Page._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.screenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:383:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22897:47
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22842:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22823:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22817:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22813:12)
+    at takeScreenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22869:12)
+    at PlaywrightServer.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:24046:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23999:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23980:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23974:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/grpc-service.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23970:12)
+    at PlaywrightServer.takeScreenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:24037:55)
+    at handleUnary (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:17918:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:387:42
+    at Page._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.screenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:383:21)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22897:47
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22842:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22823:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22817:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/browser-control.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22813:12)
+    at takeScreenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:22869:12)
+    at PlaywrightServer.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:24046:50)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23999:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23980:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23974:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/grpc-service.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:23970:12)
+    at PlaywrightServer.takeScreenshot (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:24037:55)
+    at handleUnary (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:17918:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+{"level":30,"time":"2021-06-22T17:02:03.212Z","pid":2748,"hostname":"CIT021709","msg":"Changed active context"}
+{"level":30,"time":"2021-06-22T17:02:03.212Z","pid":2748,"hostname":"CIT021709","msg":"Changing current active page"}
+{"level":30,"time":"2021-06-22T17:02:03.212Z","pid":2748,"hostname":"CIT021709","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:401:27
+    at Page._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.bringToFront (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:400:21)
+    at BrowserState.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26267:53)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25822:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25803:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25797:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25793:12)
+    at BrowserState.__webpack_modules__../node/playwright-wrapper/playwright-state.ts.BrowserState.activatePage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26262:16)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26515:55
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25822:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25803:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25797:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25793:12)
+    at _switchPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26503:12)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26631:42)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25822:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25803:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25794:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
+{"level":30,"time":"2021-06-22T17:02:03.223Z","pid":2748,"hostname":"CIT021709","msg":"Changed active context"}
+{"level":30,"time":"2021-06-22T17:02:03.223Z","pid":2748,"hostname":"CIT021709","msg":"Changing current active page"}
+{"level":30,"time":"2021-06-22T17:02:03.223Z","pid":2748,"hostname":"CIT021709","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+Error
+    at Object.captureStackTrace (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:51:19)
+    at Connection.sendMessageToServer (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:401:27
+    at Page._wrapApiCall (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.bringToFront (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:400:21)
+    at BrowserState.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26267:53)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25822:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25803:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25797:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25793:12)
+    at BrowserState.__webpack_modules__../node/playwright-wrapper/playwright-state.ts.BrowserState.activatePage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26262:16)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26515:55
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25822:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25803:53)
+    at c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25797:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/playwright-state.ts.__awaiter (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25793:12)
+    at _switchPage (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26503:12)
+    at Object.<anonymous> (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:26631:42)
+    at step (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25822:23)
+    at Object.next (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25803:53)
+    at fulfilled (c:\users\danielarc\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:25794:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+=============================================================
