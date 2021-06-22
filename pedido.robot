@@ -17,6 +17,7 @@ Deve realizar um novo pedido
     #checkpoint para provar que esta na tela mesmo
     Go Checkout
     Fill Data Customer          ${order_json["customer"]}
+    Select Payment Option       ${order_json["payment"]}
     
 *Keywords*
 Go Checkout
@@ -33,5 +34,24 @@ Fill Data Customer
     Fill Text       css=input[placeholder^="Confirmação"]     ${customer["email"]}
     Fill Text       css=input[placeholder="Endereço"]         ${customer["address"]}
     Fill Text       css=input[placeholder="Número"]           ${customer["number"]}
+
+Select Payment Option
+    [Arguments]     ${payment}
+
+    IF      "${payment}" == "Dinheiro"
+    #opção 1 é opção dinheiro, cartao de debito é 2 e cartao de refeicao e 3
+        Click    xpath=(//mt-radio//label)[1]//div
+
+    ELESE IF    "${payment}" == "Cartão de Débito"  
+        Click     xpath=(//mt-radio//label)[2]//div
+
+    ELESE IF    "${payment}" == "Cartão de Refeição"  
+        Click    xpath=(//mt-radio//label)[3]//div
+
+    ELSE 
+        #ou pode usar o Log também
+        Fail     Incorrect payment type    
+
+    END   
 
 
