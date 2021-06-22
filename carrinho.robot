@@ -29,6 +29,9 @@ Deve adicionar um item ao carrinho
     #/.. é ir ate a div pai, a é o elemento que
     #esta o que esta buscanco, o @class é a classe do botao adicionar 
     Add to cart             Starbugs 500 error
+    Wait For Elements State     css=tr >> text=Starbugs 500 error      visible     5
+
+    sleep 10
 
 *Keywords*
 Choose Restaurant
