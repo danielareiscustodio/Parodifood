@@ -35,7 +35,7 @@ Deve adicionar um item ao carrinho
 Deve adicionar os 3 itens no carrinho
     ${cart_json}            Get JSON        cart.json   
     Go To Restaurants
-    Choose Restaurant               ${cart_json}
+    Choose Restaurant               ${cart_json["restaurant"]}
     FOR     ${product}     IN       @{cart_json["products"]}
         Add to cart                 ${product["name"]}
         Should Add To Cart          ${product["name"]}
