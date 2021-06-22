@@ -46,4 +46,4 @@ Choose Restaurant
 
 Add to cart
     [Arguments]     ${name}
-    Click           xpath=//span[text()="${name}"]/..//a[@class="add-to-card"]
+    Click           xpath=//span[text()="${name}"]/..//a[@class="add-to-cart"]
