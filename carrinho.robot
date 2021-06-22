@@ -31,6 +31,18 @@ Deve adicionar um item ao carrinho
     Add to cart             Starbugs 500 error
     Should Add To Cart      Starbugs 500 error      
     Total Cart Should Be    15,60
+
+Deve adicionar os 3 itens no carrinho
+    &{restaurant}       Create Dictionary       name=STARBUGS COFFEE        desc=Nada melhor que um café pra te ajudar a resolver um bug.
+    Go To Restaurants
+    Choose Restaurant       ${restaurant}
+    Add to cart             Cappuccino com Chantilly
+    Should Add To Cart      Cappuccino com Chantilly
+    Add to cart             Super Espreso
+    Should Add To Cart      Super Espreso 
+    Add to cart             Starbugs 500 error
+    Should Add To Cart      Starbugs 500 error      
+    Total Cart Should Be    38,00
     
 *Keywords*
 Choose Restaurant
