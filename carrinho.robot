@@ -57,7 +57,7 @@ Choose Restaurant
     #checkpoint - verificar que realmente esta na tela. Verifica ate 10 segundos que o elemento esteja visivel
     Wait For Elements State     css=#detail     visible     10
     #o get text verifica que realmente na tela no css x esta aparecendo o texto esperado
-    Get Text        css=#detail     contains       ${restaurant["desc"]}
+    Get Text        css=#detail     contains       ${super_var["desc"]}
 
 Add to cart
     [Arguments]     ${name}
