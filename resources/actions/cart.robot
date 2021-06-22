@@ -22,5 +22,7 @@ Should Add To Cart
 
  Total Cart Should Be
     [Arguments]     ${total}
+    #vai imprimir no log o valor
+    Log             ${total}
     #esse contains text com virgula significa que vai encontrar o texto
     Get Text        xpath=//th[contains(text(),"Total")]/..//td     contains        ${total}      

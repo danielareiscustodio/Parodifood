@@ -4,7 +4,7 @@ Documentation       Esse arquivo deveria estar dentro da pasta tests
 #para vir de pasta, colocar resources/base.robot (pasta de onde veio).
 #se vier da raiz tem que ser ${EXECDIR}/resources/base.robot
 #essa variavel serve para pegar automaticamente o diretorio de execução
-Resource         base.robot
+Resource         ${EXECDIR}/resources/base.robot
 
 #vai executar toda vez que começar um teste
 Test Setup          Start Session

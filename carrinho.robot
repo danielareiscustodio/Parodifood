@@ -3,7 +3,7 @@ Documentation       Arquivo de carrinho e que estara dentro da pasta tests. O ar
 
 #se vier da raiz tem que ser ${EXECDIR}/resources/base.robot
 #essa variavel serve para pegar automaticamente o diretorio de execução
-Resource         base.robot
+Resource        ${EXECDIR}/resources/base.robot
 
 Test Setup      Start Session
 Test Teardown   Take Screenshot
