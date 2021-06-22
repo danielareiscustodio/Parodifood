@@ -9,8 +9,14 @@ Resource            actions/search.robot
 Resource            actions/cart.robot
 Resource            actions/order.robot
 
+*Variables*
+${DEFAULT_TIMEOUT}      10
+
 * Keywords *
 Start Session
+    #quando quiser rodar pelo browser que quiser, fazer como abaixo e depois rodar 
+    #robot -d ./logs -v browser:firefox -v headless:False tests
+    #New Browser     ${browser}        ${headless}
     New Browser     chromium        False
     New Page        http://parodifood.qaninja.academy/
     #checkpoint

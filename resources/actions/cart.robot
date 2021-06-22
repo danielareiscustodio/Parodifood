@@ -8,7 +8,7 @@ Choose Restaurant
     #[Arguments]     ${name}     ${description}
     Click           text=${super_var["restaurant"]}
     #checkpoint - verificar que realmente esta na tela. Verifica ate 10 segundos que o elemento esteja visivel
-    Wait For Elements State     css=#detail     visible     10
+    Wait For Elements State     css=#detail     visible     ${DEFAULT_TIMEOUT}
     #o get text verifica que realmente na tela no css x esta aparecendo o texto esperado
     Get Text        css=#detail     contains       ${super_var["desc"]}
 
@@ -18,7 +18,7 @@ Add to cart
 
 Should Add To Cart
     [Arguments]     ${name}
-    Wait For Elements State     css=#cart tr >> text=${name}      visible     5
+    Wait For Elements State     css=#cart tr >> text=${name}      visible     ${DEFAULT_TIMEOUT} 
 
  Total Cart Should Be
     [Arguments]     ${total}

@@ -17,12 +17,12 @@ Search by
 
 Restaurant Should Be visible
     [Arguments]     ${name}
-    Wait For Elements State     ${DIV_BOX_RESTAURANT}     visible     10     
+    Wait For Elements State     ${DIV_BOX_RESTAURANT}     visible     ${DEFAULT_TIMEOUT}      
     Get Text                    ${DIV_BOX_RESTAURANT}     contains    ${name}
 
 Restaurante Count Should Be
     [Arguments]     ${qtd}
-    Wait For Elements State     ${DIV_BOX_RESTAURANT}      visible     10
+    Wait For Elements State     ${DIV_BOX_RESTAURANT}      visible     ${DEFAULT_TIMEOUT} 
     Get Element Count           ${DIV_BOX_RESTAURANT}      equal       ${qtd}
 
 
