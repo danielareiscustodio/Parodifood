@@ -34,7 +34,7 @@ Start Session
     #checkpoint
     Get Text        css=span        contains        Nunca foi tão engraçado pedir comida
 
-Go To Restaurantes
+Go To Restaurants
     Click           text=Estou com fome!
     Get Text        css=h1 strong       contains        Ta na hora de matar a fome!
 
