@@ -6,28 +6,27 @@ Documentation       Esse arquivo deveria estar dentro da pasta tests
 #essa variavel serve para pegar automaticamente o diretorio de execução
 Resource         base.robot
 
+#vai executar toda vez que começar um teste
+Test Setup          Start Session
+#essa keyword sera executada toda vez que um teste for finalizado
+Test Teardown       Take Screenshot
+
 * Test Cases *
 Deve buscar um único restaurante
-    Start Session
     Go to restaurants
     Search by                           Debuger
     Restaurant Should Be visible        DEBUGER KING
     #quando acontecer de repetir na tela, ele nao pegara. Entao usar o elemento abaixo para contar
     #e retornar apenas 1 elemento com o elemento
     Restaurante Count Should Be         1
-    Take Screenshot
-
+    
 Deve buscar por categoria
-    Start Session
     Go to restaurants
     Search by                           Cafe
     Restaurant Should Be visible        STARBUGS COFFEE
-    Take Screenshot
-
+    
 Devo buscar todos os restaurantes
-    Start Session
     Go To Restaurants
     Search by                           a
     Restaurante Count Should Be         5
-    Take Screenshot
-
+    
