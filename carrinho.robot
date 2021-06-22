@@ -30,7 +30,7 @@ Deve adicionar um item ao carrinho
     #esta o que esta buscanco, o @class é a classe do botao adicionar 
     Add to cart             Starbugs 500 error
     Should Add To Cart      Starbugs 500 error      
-
+    Total Cart Should Be    15,60
     
 *Keywords*
 Choose Restaurant
@@ -50,3 +50,8 @@ Add to cart
 Should Add To Cart
     [Arguments]     ${name}
     Wait For Elements State     css=#cart tr >> text=${name}      visible     5
+
+ Total Cart Should Be
+    [Arguments]     ${total}
+    #esse contains text com virgula significa que vai encontrar o texto
+    Get Text        xpath=//th[contains(text(),"Total")]/..//td     contains        ${total}      
