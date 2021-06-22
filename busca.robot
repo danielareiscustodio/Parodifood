@@ -5,7 +5,7 @@ Library         Browser
 * Test Cases *
 Deve buscar um único restaurante
     Start Session
-    Go to restaurantes
+    Go to restaurants
     Search by                           Debuger
     Restaurant Should Be visible        DEBUGER KING
     #quando acontecer de repetir na tela, ele nao pegara. Entao usar o elemento abaixo para contar
@@ -15,18 +15,16 @@ Deve buscar um único restaurante
 
 Deve buscar por categoria
     Start Session
-    Go to restaurantes a fome!
+    Go to restaurants
     Search by                           Cafe
     Restaurant Should Be visible        STARBUGS COFFEE
     Take Screenshot
 
 Devo buscar todos os restaurantes
     Start Session
-    Go to restaurantes
+    Go To Restaurants
     Search by                           a
-
     Restaurante Count Should Be         5
-
     Take Screenshot
 
 * Keywords *
@@ -36,7 +34,7 @@ Start Session
     #checkpoint
     Get Text        css=span        contains        Nunca foi tão engraçado pedir comida
 
-Go to restaurantes
+Go To Restaurantes
     Click           text=Estou com fome!
     Get Text        css=h1 strong       contains        Ta na hora de matar a fome!
 
