@@ -17,7 +17,7 @@ Start Session
     #quando quiser rodar pelo browser que quiser, fazer como abaixo e depois rodar 
     #robot -d ./logs -v browser:firefox -v headless:False tests
     #New Browser     ${browser}        ${headless}
-    New Browser     chromium        False
+    New Browser     chromium        True
     New Page        http://parodifood.qaninja.academy/
     #checkpoint
     Get Text        css=span        contains        Nunca foi tão engraçado pedir comida
