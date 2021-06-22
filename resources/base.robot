@@ -7,6 +7,7 @@ Library             OperatingSystem
 #viria da pasta action - actions/search.robot
 Resource            actions/search.robot
 Resource            actions/cart.robot
+Resource            actions/order.robot
 
 * Keywords *
 Start Session
