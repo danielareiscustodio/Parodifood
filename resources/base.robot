@@ -17,8 +17,10 @@ Start Session
     #quando quiser rodar pelo browser que quiser, fazer como abaixo e depois rodar 
     #robot -d ./logs -v browser:firefox -v headless:False tests
     #New Browser     ${browser}        ${headless}
-    New Browser     chromium        True
-    New Page        http://parodifood.qaninja.academy/
+    New Browser             chromium        True
+    New Page                http://parodifood.qaninja.academy/
+    #esse item serve para colocar o minimo que deve ser rodado. Assim a partir desse tem que rodar
+    Set Viewport Size       1920    1080
     #checkpoint
     Get Text        css=span        contains        Nunca foi tão engraçado pedir comida
 
