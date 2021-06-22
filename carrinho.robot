@@ -29,9 +29,9 @@ Deve adicionar um item ao carrinho
     #/.. é ir ate a div pai, a é o elemento que
     #esta o que esta buscanco, o @class é a classe do botao adicionar 
     Add to cart             Starbugs 500 error
-    Wait For Elements State     css=tr >> text=Starbugs 500 error      visible     5
+    Should Add To Cart      Starbugs 500 error      
 
-    sleep 10
+    Sleep 10
 
 *Keywords*
 Choose Restaurant
@@ -47,3 +47,7 @@ Choose Restaurant
 Add to cart
     [Arguments]     ${name}
     Click           xpath=//span[text()="${name}"]/..//a[@class="add-to-cart"]
+
+Should Add To Cart
+    [Arguments]     ${name}
+    Wait For Elements State     css=#cart tr >> text=${name}      visible     5
