@@ -19,6 +19,6 @@ Start Session
 Get JSON
     [Arguments]     ${file_name}
     #outro exemplo de caminho é ${EXECDIR}/resources/fixtures/${file_name}
-    ${file}             Get File        ${EXECDIR}/Parodifood/${file_name}
+    ${file}             Get File        ${EXECDIR}/Parodifood/resources/fixtures/${file_name}
     ${super_var}        Evaluate        json.loads($file)      json        
     [return]            ${super_var}
