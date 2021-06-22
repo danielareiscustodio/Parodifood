@@ -21,7 +21,7 @@ Deve adicionar um item ao carrinho
 
     #o & na frente significa que e uma super variavel que guarda um dicionario de coisas
     #mas para usar ela, precisa ainda ser com $
-    &{restaurant}       Create Dictionary       name=STARBUGS COFFEE        desc=Nada melhor que um café pra te ajudar a resolver um bug.
+    &{restaurant}       Create Dictionary       restaurant=STARBUGS COFFEE        desc=Nada melhor que um café pra te ajudar a resolver um bug.
     Go To Restaurants
     Choose Restaurant       ${restaurant}
     #esse //span, foi um xpath feito na mao
